@@ -5,6 +5,7 @@ import Count from './components/Count';
 import Header from './components/Header'
 import Main from './components/Main'
 import Experience from './components/Experience'
+import Education from './components/Education'
 
 import styles from './index.less';
 
@@ -14,13 +15,12 @@ function App(props) {
       <Header />
       <Main />
       <Experience />
+      <Education />
     </div>
   );
 }
 
 export default connect(state => {
   return {
-    pathname: state.routing.location.pathname,
-    text: state.global.text,
   };
 })(App);
