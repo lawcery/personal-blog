@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "umi dev",
-    "build": "umi build"
+    "build": "umi build",
+    "netlify": "npm install && umi build"
   },
   "dependencies": {
     "react-intl": "^2.4.0",
