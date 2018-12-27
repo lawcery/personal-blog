@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "umi dev"
+    "start": "umi dev",
+    "build": "umi build"
   },
   "dependencies": {
     "react-intl": "^2.4.0",
